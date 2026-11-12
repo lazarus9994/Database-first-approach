@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering SYSTEM
+        "https://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+    <type-mapping>
+        <sql-type jdbc-type="NVARCHAR" hibernate-type="string"/>
+        <sql-type jdbc-type="VARCHAR" hibernate-type="string"/>
+        <sql-type jdbc-type="NCHAR" hibernate-type="string"/>
+        <sql-type jdbc-type="CHAR" hibernate-type="string"/>
+    </type-mapping>
+    <schema-selection match-schema="dbo"/>
+    <table-filter match-name=".*" package="_06_11_2026.DBFirstApproach.entity"/>
+</hibernate-reverse-engineering>
